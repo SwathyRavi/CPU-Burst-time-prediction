@@ -1,2 +1,3 @@
-# CPU-BURST-TIME-PREDICTION
-This project aims to predict the burst time of the CPU using machine learning. 
+# CPU-BURST-TIME-PREDICTION 
+The demand of scheduling algorithm arises in modern times as per the necessity of performing more than one process at a time. FCFS, SJF, RR and priority algorithms are the different scheduling algorithms used for scheduling. Shortest Job First (SJF) is not practically implemented since operating system doesn’t know the execution time called as burst time of a process in prior.
+• Generated live data of the running process from the system using a Python module. A data frame is generated out of this data and implemented a machine learning model for predicting the burst time of the next incoming process thereby eliminating the challenges faced by SJF algorithm.
