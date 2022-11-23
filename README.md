@@ -1,3 +1,6 @@
 # CPU-BURST-TIME-PREDICTION 
-The demand of scheduling algorithm arises in modern times as per the necessity of performing more than one process at a time. FCFS, SJF, RR and priority algorithms are the different scheduling algorithms used for scheduling. Shortest Job First (SJF) is not practically implemented since operating system doesn’t know the execution time called as burst time of a process in prior.
-• Generated live data of the running process from the system using a Python module. A data frame is generated out of this data and implemented a machine learning model for predicting the burst time of the next incoming process thereby eliminating the challenges faced by SJF algorithm.
+
+
+In older days, uniprocessor system handles the execution of single process at a time. In current, we need to run multiple process within time entitled as ‘Multi processing’. The requirement for scheduling emerges from the prerequisite of multiprocessing that helps to choose which process among queue would be allotted to CPU for execution. Thus, we use different scheduling algorithm named as First Come First Serve, Round Robin, Shortest Job First and Priority for scheduling out in different means. Shortest Job First (SJF) is notvirtually implemented due to the fact that operating system doesn’t know the execution time termed as burst period of a process before. Numerous methods such as exponential averaging, simple averaging method exists for predicting the burst time hypothetically. Thus, aims to develop a machine learning model for predicting the burst time of a process in factual. A Hybrid SJF algorithm is implemented and matched its performance with other algorithms stated and witnessed that the newly proposed hybrid algorithm indicates enhanced performance
+
+
